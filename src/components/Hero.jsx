@@ -67,7 +67,7 @@ function Hero({ language }) {
             </a>
 
             <a
-              href="linkedin.com/in/kirti-tripathi062214"
+              href="http://linkedin.com/in/kirti-tripathi062214"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -76,8 +76,8 @@ function Hero({ language }) {
             </a>
 
             <a
-              href="tripathi17kirti@example.com"
-              aria-label="Email"
+                href="mailto:tripathi17kirti@example.com"
+                aria-label="Email"
             >
               <Mail />
             </a>

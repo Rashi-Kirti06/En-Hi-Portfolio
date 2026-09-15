@@ -26,7 +26,7 @@ function Contact({ language }) {
           <div className="contact-links">
 
             <a
-              href="tripathi17kirti@gmail.com"
+              href="mailto:tripathi17kirti@example.com"
               className="contact-card"
             >
               <Mail />

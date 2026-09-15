@@ -9,24 +9,22 @@ const projects = [
     title: "Ticket Booking System",
 
     descriptionEn:
-      "Backend ticket booking application built using Spring Boot with MySQL persistence, Redis caching and Kafka-based event communication.",
-
+    "Ticket Booking System allows users to select available seats and book tickets easily. It stores and manages booking details and seat availability in the database.",
     descriptionHi:
-      "Spring Boot से बनाया गया backend ticket booking application जिसमें MySQL persistence, Redis caching और Kafka event communication का उपयोग किया गया है।",
-
+    "टिकट बुकिंग सिस्टम यूज़र्स को उपलब्ध सीट चुनकर आसानी से टिकट बुक करने की सुविधा देता है। यह बुकिंग की जानकारी और सीट की उपलब्धता को डेटाबेस में मैनेज करता है।",
     technologies: [
       "Java",
       "Spring Boot",
       "MySQL",
-      "Redis",
-      "Kafka",
+        "JPA",
+      "JSP",
+        "HTML, CSS",
       "REST API",
     ],
 
     github:
-      "https://github.com/YOUR_USERNAME/ticket-booking-system",
-
-    live: "#",
+    "https://github.com/Rashi-Kirti06/TicketBookingApplication.git",
+    live: "https://github.com/Rashi-Kirti06/TicketBookingApplication.git",
   },
 
   {
@@ -53,24 +51,24 @@ const projects = [
   },
 
   {
-    title: "E-Commerce Backend",
+    title: "DocSearch-Role Based",
 
     descriptionEn:
-      "Backend API architecture for products, users, orders and authentication designed using Spring Boot.",
-
+    "User Registration: Stores employee details securely in MySQL. Role-Based Access: Controls document access based on user roles.",
     descriptionHi:
-      "Spring Boot का उपयोग करके products, users, orders और authentication के लिए बनाया गया backend architecture।",
-
+    "User Registration: नए कर्मचारियों की जानकारी लेकर उसे MySQL में सुरक्षित रूप से स्टोर करता है। Role-Based Search: यूज़र की भूमिका के आधार पर उसे केवल अधिकृत दस्तावेज़ों को खोजने और एक्सेस करने देता है।",
     technologies: [
       "Java",
       "Spring Boot",
       "REST API",
       "MySQL",
       "JWT",
+        "JPA",
+        "JSP",
     ],
 
-    github: "#",
-    live: "#",
+    github: "https://github.com/Rashi-Kirti06/docSearchRoleBased.git",
+    live: "https://github.com/Rashi-Kirti06/docSearchRoleBased.git",
   },
 ];
 
